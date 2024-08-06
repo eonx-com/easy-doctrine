@@ -24,7 +24,7 @@ use RuntimeException;
 
 #[CoversClass(DeferredEntityEventDispatcher::class)]
 #[CoversClass(EntityEventListener::class)]
-final class EntityEventListenersTest extends AbstractUnitTestCase
+final class EntityEventListenerTest extends AbstractUnitTestCase
 {
     public function testEventIsDispatchedIfTimezoneWasChanged(): void
     {
